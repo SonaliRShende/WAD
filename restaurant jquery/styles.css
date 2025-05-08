@@ -1,0 +1,26 @@
+.menu-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .desc {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    color: #fff;
+  }
+  
+  .ui-page {
+    background-color: #fdf6f0;
+  }
+  

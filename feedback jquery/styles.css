@@ -1,0 +1,37 @@
+body {
+    background-color: #f0f0f0;
+  }
+  
+  .ui-page {
+    padding-top: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submit-btn {
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+  }
+  
+  .submit-btn:hover {
+    background-color: #4cae4c;
+  }
+  

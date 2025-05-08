@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Delish Dine - Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div data-role="page" id="home">
+  <div data-role="header" data-theme="b" class="header-style">
+    <h1>🍽️ Delish Dine</h1>
+    <h4 class="tagline">Serving Happiness on a Plate</h4>
+  </div>
+
+  <div data-role="content" class="menu-content">
+    <h2 class="menu-heading">Our Special Menu</h2>
+    <ul data-role="listview" data-inset="true">
+      <li><a href="#pizzaPage"><img src="images/pizza.jpeg" alt="Pizza">Cheese Burst Pizza</a></li>
+      <li><a href="#burgerPage"><img src="images/burger.jpeg" alt="Burger">Grilled Chicken Burger</a></li>
+      <li><a href="#pastaPage"><img src="images/pasta.jpeg" alt="Pasta">White Sauce Pasta</a></li>
+    </ul>
+  </div>
+</div>
+
+<div data-role="page" id="pizzaPage">
+  <div data-role="header" data-theme="b">
+    <a href="#home" data-icon="back">Back</a>
+    <h1>Pizza</h1>
+  </div>
+  <div data-role="content" class="item-page">
+    <img src="images/pizza.jpeg" class="menu-img" alt="Pizza" />
+    <h3>Cheese Burst Pizza</h3>
+    <p class="price">₹250</p>
+    <p class="desc">A hot and cheesy pizza topped with juicy tomatoes, olives, and extra mozzarella. Perfect for cheese lovers!</p>
+  </div>
+</div>
+
+<div data-role="page" id="burgerPage">
+  <div data-role="header" data-theme="b">
+    <a href="#home" data-icon="back">Back</a>
+    <h1>Burger</h1>
+  </div>
+  <div data-role="content" class="item-page">
+    <img src="images/burger.jpeg" class="menu-img" alt="Burger" />
+    <h3>Grilled Chicken Burger</h3>
+    <p class="price">₹150</p>
+    <p class="desc">A smoky grilled chicken patty served in a soft bun with lettuce, tomato, and a dash of tangy sauce.</p>
+  </div>
+</div>
+
+<div data-role="page" id="pastaPage">
+  <div data-role="header" data-theme="b">
+    <a href="#home" data-icon="back">Back</a>
+    <h1>Pasta</h1>
+  </div>
+  <div data-role="content" class="item-page">
+    <img src="images/pasta.jpeg" class="menu-img" alt="Pasta" />
+    <h3>White Sauce Pasta</h3>
+    <p class="price">₹180</p>
+    <p class="desc">Creamy and rich pasta cooked in a white sauce with herbs, mushrooms, and bell peppers. A true Italian delight!</p>
+  </div>
+</div>
+
+</body>
+</html>

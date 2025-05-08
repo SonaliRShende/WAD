@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback Form</title>
+
+  <!-- Include CSS and JavaScript files -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="script.js"></script>
+  
+</head>
+
+<body>
+
+  <div data-role="page" id="feedbackPage">
+
+    <div data-role="header">
+      <h1>Feedback Form</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">
+      <div class="feedback-container">
+        <h2>Your Feedback</h2>
+
+        <form id="feedbackForm">
+          <div class="ui-field-contain">
+            <label for="userName">Your Name:</label>
+            <input type="text" name="userName" id="userName" placeholder="Enter your name">
+          </div>
+
+          <div class="ui-field-contain">
+            <label for="feedbackText">Your Feedback:</label>
+            <textarea name="feedbackText" id="feedbackText" placeholder="Write your feedback here"></textarea>
+          </div>
+
+          <div class="ui-field-contain">
+            <label for="satisfactionToggle">Satisfaction Level:</label>
+            <select name="satisfactionToggle" id="satisfactionToggle" data-role="slider">
+              <option value="1">Unsatisfied</option>
+              <option value="2">Satisfied</option>
+            </select>
+          </div>
+
+          <button type="submit" class="submit-btn">Submit Feedback</button>
+        </form>
+      </div>
+    </div><!-- /content -->
+
+    <div data-role="footer">
+      <h4>Thank you for your feedback!</h4>
+    </div><!-- /footer -->
+
+  </div><!-- /page -->
+
+</body>
+</html>
