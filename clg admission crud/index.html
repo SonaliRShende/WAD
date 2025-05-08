@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Admission CRUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>College Admission Form</h2>
+
+  <input type="text" id="studentName" placeholder="Student Name" />
+  <input type="text" id="address" placeholder="Address" />
+  <input type="text" id="phoneno" placeholder="Mob. No." />
+  <input type="text" id="course" placeholder="Course" />
+  <input type="date" id="admissionDate" />
+
+  <button onclick="addAdmission()">Add Admission</button>
+  <button onclick="updateAdmission()">Update Admission</button>
+  <button onclick="deleteAdmission()">Delete Admission</button>
+
+  <h3>Admission Records:</h3>
+  <div id="admissions"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
